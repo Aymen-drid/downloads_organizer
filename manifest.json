@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Download Organizer",
+  "version": "1.0",
+  "description": "Organize downloads based on file type",
+  "permissions": [
+    "downloads",
+    "downloads.open"
+  ],
+  "icons": {
+    "512": "icons/download.png"
+  },
+  "background": {
+    "scripts": ["background.js"]  
+  },
+  "action": {
+    "default_icon": "icons/download.png"
+  },
+  "key": "aymenhocam@gmail.com",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "download.organizer@example.com"
+    }
+  }
+}
